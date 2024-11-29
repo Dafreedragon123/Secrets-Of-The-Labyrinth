@@ -174,7 +174,7 @@ def astar_find_path(maze, start, goal):
 
 minotaur_path = []  # Store the current path
 minotaur_last_move_time = 0  # Track the last move time
-minotaur_move_interval = 0.05  # Move every 0.1 seconds
+minotaur_move_interval = 0.1  # Move every 0.1 seconds
 
 def move_minotaur():
     """Move the Minotaur towards the player using A* pathfinding and dynamically recalculate the path if stuck."""
